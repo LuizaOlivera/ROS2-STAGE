@@ -1,0 +1,11 @@
+/home/vboxuser/Downloads/trabalho_stage_ros2/build/stage_ros2/CMakeFiles/uninstall.dir
+/home/vboxuser/Downloads/trabalho_stage_ros2/build/stage_ros2/CMakeFiles/stage_ros2_uninstall.dir
+/home/vboxuser/Downloads/trabalho_stage_ros2/build/stage_ros2/CMakeFiles/stage_node.dir
+/home/vboxuser/Downloads/trabalho_stage_ros2/build/stage_ros2/CMakeFiles/stage_ros2.dir
+/home/vboxuser/Downloads/trabalho_stage_ros2/build/stage_ros2/CMakeFiles/test.dir
+/home/vboxuser/Downloads/trabalho_stage_ros2/build/stage_ros2/CMakeFiles/edit_cache.dir
+/home/vboxuser/Downloads/trabalho_stage_ros2/build/stage_ros2/CMakeFiles/rebuild_cache.dir
+/home/vboxuser/Downloads/trabalho_stage_ros2/build/stage_ros2/CMakeFiles/list_install_components.dir
+/home/vboxuser/Downloads/trabalho_stage_ros2/build/stage_ros2/CMakeFiles/install.dir
+/home/vboxuser/Downloads/trabalho_stage_ros2/build/stage_ros2/CMakeFiles/install/local.dir
+/home/vboxuser/Downloads/trabalho_stage_ros2/build/stage_ros2/CMakeFiles/install/strip.dir
