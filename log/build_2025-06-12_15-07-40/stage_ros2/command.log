@@ -1,0 +1,2 @@
+Invoking command in '/home/vboxuser/Downloads/trabalho_stage_ros2/build/stage_ros2': /usr/bin/cmake /home/vboxuser/Downloads/trabalho_stage_ros2/src/stage_ros2 -DCMAKE_INSTALL_PREFIX=/home/vboxuser/Downloads/trabalho_stage_ros2/install/stage_ros2
+Invoked command in '/home/vboxuser/Downloads/trabalho_stage_ros2/build/stage_ros2' returned '1': /usr/bin/cmake /home/vboxuser/Downloads/trabalho_stage_ros2/src/stage_ros2 -DCMAKE_INSTALL_PREFIX=/home/vboxuser/Downloads/trabalho_stage_ros2/install/stage_ros2

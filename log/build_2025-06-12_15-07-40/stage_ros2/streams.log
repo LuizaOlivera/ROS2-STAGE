@@ -1,0 +1,33 @@
+[0.029s] Invoking command in '/home/vboxuser/Downloads/trabalho_stage_ros2/build/stage_ros2': /usr/bin/cmake /home/vboxuser/Downloads/trabalho_stage_ros2/src/stage_ros2 -DCMAKE_INSTALL_PREFIX=/home/vboxuser/Downloads/trabalho_stage_ros2/install/stage_ros2
+[0.230s] -- The C compiler identification is GNU 11.4.0
+[0.472s] -- The CXX compiler identification is GNU 11.4.0
+[0.510s] -- Detecting C compiler ABI info
+[0.758s] -- Detecting C compiler ABI info - done
+[0.786s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.787s] -- Detecting C compile features
+[0.789s] -- Detecting C compile features - done
+[0.807s] -- Detecting CXX compiler ABI info
+[1.088s] -- Detecting CXX compiler ABI info - done
+[1.152s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.152s] -- Detecting CXX compile features
+[1.153s] -- Detecting CXX compile features - done
+[1.180s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[1.180s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.180s]   has asked CMake to find a package configuration file provided by
+[1.181s]   "ament_cmake", but CMake did not find one.
+[1.181s] 
+[1.182s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.182s]   any of the following names:
+[1.182s] 
+[1.183s]     ament_cmakeConfig.cmake
+[1.183s]     ament_cmake-config.cmake
+[1.183s] 
+[1.183s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.183s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.191s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.191s]   has been installed.
+[1.192s] 
+[1.192s] [0m
+[1.192s] -- Configuring incomplete, errors occurred!
+[1.192s] See also "/home/vboxuser/Downloads/trabalho_stage_ros2/build/stage_ros2/CMakeFiles/CMakeOutput.log".
+[1.210s] Invoked command in '/home/vboxuser/Downloads/trabalho_stage_ros2/build/stage_ros2' returned '1': /usr/bin/cmake /home/vboxuser/Downloads/trabalho_stage_ros2/src/stage_ros2 -DCMAKE_INSTALL_PREFIX=/home/vboxuser/Downloads/trabalho_stage_ros2/install/stage_ros2

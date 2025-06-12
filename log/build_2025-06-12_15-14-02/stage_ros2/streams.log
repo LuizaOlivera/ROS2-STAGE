@@ -1,0 +1,97 @@
+[0.027s] Invoking command in '/home/vboxuser/Downloads/trabalho_stage_ros2/build/stage_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/vboxuser/Downloads/trabalho_stage_ros2/install/my_py_pkg:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/vboxuser/Downloads/trabalho_stage_ros2/src/stage_ros2 -DCMAKE_INSTALL_PREFIX=/home/vboxuser/Downloads/trabalho_stage_ros2/install/stage_ros2
+[0.139s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.734s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.130s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.397s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.424s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.487s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.571s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.666s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.944s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.962s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.335s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.450s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.588s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.646s] -- Looking for pthread.h
+[2.949s] -- Looking for pthread.h - found
+[2.949s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.321s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.325s] -- Found Threads: TRUE  
+[3.707s] -- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+[3.884s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.136s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[4.276s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[4.810s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[4.882s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[4.888s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.898s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.902s] -- Found std_srvs: 4.8.0 (/opt/ros/humble/share/std_srvs/cmake)
+[5.003s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.397s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.408s] -- Configured cppcheck include dirs: /home/vboxuser/Downloads/trabalho_stage_ros2/src/stage_ros2/./include;$<BUILD_INTERFACE:/home/vboxuser/Downloads/trabalho_stage_ros2/src/stage_ros2/include>
+[5.410s] -- Configured cppcheck exclude dirs and/or files: 
+[5.411s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.421s] -- Added test 'lint_cmake' to check CMake code style
+[5.423s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.434s] -- Added test 'uncrustify' to check C / C++ code style
+[5.434s] -- Configured uncrustify additional arguments: 
+[5.436s] -- Added test 'xmllint' to check XML markup files
+[5.445s] -- Configuring done
+[5.589s] -- Generating done
+[5.628s] -- Build files have been written to: /home/vboxuser/Downloads/trabalho_stage_ros2/build/stage_ros2
+[5.682s] Invoked command in '/home/vboxuser/Downloads/trabalho_stage_ros2/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/vboxuser/Downloads/trabalho_stage_ros2/install/my_py_pkg:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/vboxuser/Downloads/trabalho_stage_ros2/src/stage_ros2 -DCMAKE_INSTALL_PREFIX=/home/vboxuser/Downloads/trabalho_stage_ros2/install/stage_ros2
+[5.684s] Invoking command in '/home/vboxuser/Downloads/trabalho_stage_ros2/build/stage_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/vboxuser/Downloads/trabalho_stage_ros2/install/my_py_pkg:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/vboxuser/Downloads/trabalho_stage_ros2/build/stage_ros2 -- -j1 -l1
+[5.824s] [ 14%] [32mBuilding CXX object CMakeFiles/stage_node.dir/src/stage_node.cpp.o[0m
+[41.417s] [ 28%] [32mBuilding CXX object CMakeFiles/stage_node.dir/src/vehicle.cpp.o[0m
+[82.643s] [ 42%] [32mBuilding CXX object CMakeFiles/stage_node.dir/src/ranger.cpp.o[0m
+[106.479s] [ 57%] [32mBuilding CXX object CMakeFiles/stage_node.dir/src/camera.cpp.o[0m
+[130.316s] [ 71%] [32m[1mLinking CXX shared library libstage_node.so[0m
+[134.275s] [ 71%] Built target stage_node
+[134.352s] [ 85%] [32mBuilding CXX object CMakeFiles/stage_ros2.dir/src/main.cpp.o[0m
+[149.958s] [100%] [32m[1mLinking CXX executable stage_ros2[0m
+[151.981s] [100%] Built target stage_ros2
+[152.035s] Invoked command in '/home/vboxuser/Downloads/trabalho_stage_ros2/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/vboxuser/Downloads/trabalho_stage_ros2/install/my_py_pkg:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/vboxuser/Downloads/trabalho_stage_ros2/build/stage_ros2 -- -j1 -l1
+[152.050s] Invoking command in '/home/vboxuser/Downloads/trabalho_stage_ros2/build/stage_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/vboxuser/Downloads/trabalho_stage_ros2/install/my_py_pkg:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/vboxuser/Downloads/trabalho_stage_ros2/build/stage_ros2
+[152.062s] -- Install configuration: ""
+[152.064s] -- Installing: /home/vboxuser/Downloads/trabalho_stage_ros2/install/stage_ros2/share/stage_ros2/environment/library_path.sh
+[152.069s] -- Installing: /home/vboxuser/Downloads/trabalho_stage_ros2/install/stage_ros2/share/stage_ros2/environment/library_path.dsv
+[152.083s] -- Installing: /home/vboxuser/Downloads/trabalho_stage_ros2/install/stage_ros2/share/stage_ros2//launch
+[152.083s] -- Installing: /home/vboxuser/Downloads/trabalho_stage_ros2/install/stage_ros2/share/stage_ros2//launch/stage.launch.py
+[152.084s] -- Installing: /home/vboxuser/Downloads/trabalho_stage_ros2/install/stage_ros2/share/stage_ros2//world
+[152.085s] -- Installing: /home/vboxuser/Downloads/trabalho_stage_ros2/install/stage_ros2/share/stage_ros2//world/include
+[152.086s] -- Installing: /home/vboxuser/Downloads/trabalho_stage_ros2/install/stage_ros2/share/stage_ros2//world/include/pioneer2dx.inc
+[152.087s] -- Installing: /home/vboxuser/Downloads/trabalho_stage_ros2/install/stage_ros2/share/stage_ros2//world/include/robots.inc
+[152.089s] -- Installing: /home/vboxuser/Downloads/trabalho_stage_ros2/install/stage_ros2/share/stage_ros2//world/new_cave.world
+[152.092s] -- Installing: /home/vboxuser/Downloads/trabalho_stage_ros2/install/stage_ros2/share/stage_ros2//world/bitmaps
+[152.095s] -- Installing: /home/vboxuser/Downloads/trabalho_stage_ros2/install/stage_ros2/share/stage_ros2//world/bitmaps/new_cave.png
+[152.096s] -- Installing: /home/vboxuser/Downloads/trabalho_stage_ros2/install/stage_ros2/share/stage_ros2//config
+[152.097s] -- Installing: /home/vboxuser/Downloads/trabalho_stage_ros2/install/stage_ros2/share/stage_ros2//config/teleop_twist_joy
+[152.097s] -- Installing: /home/vboxuser/Downloads/trabalho_stage_ros2/install/stage_ros2/share/stage_ros2//config/teleop_twist_joy/f710.config.yaml
+[152.098s] -- Installing: /home/vboxuser/Downloads/trabalho_stage_ros2/install/stage_ros2/share/stage_ros2//config/rviz
+[152.102s] -- Installing: /home/vboxuser/Downloads/trabalho_stage_ros2/install/stage_ros2/share/stage_ros2//config/rviz/cave_three_robots.rviz
+[152.103s] -- Installing: /home/vboxuser/Downloads/trabalho_stage_ros2/install/stage_ros2/share/stage_ros2//config/rviz/robot0.rviz
+[152.104s] -- Installing: /home/vboxuser/Downloads/trabalho_stage_ros2/install/stage_ros2/share/stage_ros2//config/rviz/cave_seven_robots.rviz
+[152.105s] -- Installing: /home/vboxuser/Downloads/trabalho_stage_ros2/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns.rviz
+[152.109s] -- Installing: /home/vboxuser/Downloads/trabalho_stage_ros2/install/stage_ros2/share/stage_ros2//config/rviz/cave.rviz
+[152.111s] -- Installing: /home/vboxuser/Downloads/trabalho_stage_ros2/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns_depth.rviz
+[152.113s] -- Installing: /home/vboxuser/Downloads/trabalho_stage_ros2/install/stage_ros2/share/stage_ros2//config/rviz/lines.rviz
+[152.117s] -- Installing: /home/vboxuser/Downloads/trabalho_stage_ros2/install/stage_ros2/lib/libstage_node.so
+[152.137s] -- Set runtime path of "/home/vboxuser/Downloads/trabalho_stage_ros2/install/stage_ros2/lib/libstage_node.so" to ""
+[152.138s] -- Installing: /home/vboxuser/Downloads/trabalho_stage_ros2/install/stage_ros2/lib/stage_ros2/stage_ros2
+[152.140s] -- Set runtime path of "/home/vboxuser/Downloads/trabalho_stage_ros2/install/stage_ros2/lib/stage_ros2/stage_ros2" to ""
+[152.140s] -- Installing: /home/vboxuser/Downloads/trabalho_stage_ros2/install/stage_ros2/share/ament_index/resource_index/package_run_dependencies/stage_ros2
+[152.142s] -- Installing: /home/vboxuser/Downloads/trabalho_stage_ros2/install/stage_ros2/share/ament_index/resource_index/parent_prefix_path/stage_ros2
+[152.142s] -- Installing: /home/vboxuser/Downloads/trabalho_stage_ros2/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.sh
+[152.144s] -- Installing: /home/vboxuser/Downloads/trabalho_stage_ros2/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.dsv
+[152.146s] -- Installing: /home/vboxuser/Downloads/trabalho_stage_ros2/install/stage_ros2/share/stage_ros2/environment/path.sh
+[152.146s] -- Installing: /home/vboxuser/Downloads/trabalho_stage_ros2/install/stage_ros2/share/stage_ros2/environment/path.dsv
+[152.148s] -- Installing: /home/vboxuser/Downloads/trabalho_stage_ros2/install/stage_ros2/share/stage_ros2/local_setup.bash
+[152.149s] -- Installing: /home/vboxuser/Downloads/trabalho_stage_ros2/install/stage_ros2/share/stage_ros2/local_setup.sh
+[152.152s] -- Installing: /home/vboxuser/Downloads/trabalho_stage_ros2/install/stage_ros2/share/stage_ros2/local_setup.zsh
+[152.152s] -- Installing: /home/vboxuser/Downloads/trabalho_stage_ros2/install/stage_ros2/share/stage_ros2/local_setup.dsv
+[152.155s] -- Installing: /home/vboxuser/Downloads/trabalho_stage_ros2/install/stage_ros2/share/stage_ros2/package.dsv
+[152.156s] -- Installing: /home/vboxuser/Downloads/trabalho_stage_ros2/install/stage_ros2/share/ament_index/resource_index/packages/stage_ros2
+[152.157s] -- Installing: /home/vboxuser/Downloads/trabalho_stage_ros2/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config.cmake
+[152.157s] -- Installing: /home/vboxuser/Downloads/trabalho_stage_ros2/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config-version.cmake
+[152.159s] -- Installing: /home/vboxuser/Downloads/trabalho_stage_ros2/install/stage_ros2/share/stage_ros2/package.xml
+[152.169s] Invoked command in '/home/vboxuser/Downloads/trabalho_stage_ros2/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/vboxuser/Downloads/trabalho_stage_ros2/install/my_py_pkg:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/vboxuser/Downloads/trabalho_stage_ros2/build/stage_ros2

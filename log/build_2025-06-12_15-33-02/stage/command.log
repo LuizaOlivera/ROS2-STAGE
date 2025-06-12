@@ -1,0 +1,4 @@
+Invoking command in '/home/vboxuser/Downloads/trabalho_stage_ros2/build/stage': /usr/bin/cmake --build /home/vboxuser/Downloads/trabalho_stage_ros2/build/stage -- -j1 -l1
+Invoked command in '/home/vboxuser/Downloads/trabalho_stage_ros2/build/stage' returned '0': /usr/bin/cmake --build /home/vboxuser/Downloads/trabalho_stage_ros2/build/stage -- -j1 -l1
+Invoking command in '/home/vboxuser/Downloads/trabalho_stage_ros2/build/stage': /usr/bin/cmake --install /home/vboxuser/Downloads/trabalho_stage_ros2/build/stage
+Invoked command in '/home/vboxuser/Downloads/trabalho_stage_ros2/build/stage' returned '0': /usr/bin/cmake --install /home/vboxuser/Downloads/trabalho_stage_ros2/build/stage
